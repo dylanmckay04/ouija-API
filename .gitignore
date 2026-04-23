@@ -1,0 +1,11 @@
+# Environment
+.env
+.venv
+
+# Compile / Build Files
+*.pyc
+__pycache__
+.pytest_cache
+build
+node_modules
+
