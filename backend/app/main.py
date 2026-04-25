@@ -47,6 +47,7 @@ async def global_exception_handler(request: Request, exc: Exception):
         content={"detail": "An unexpected error occurred"}
     )
     
+#TODO add routers
 
 @app.get("/health")
 def health_check():
